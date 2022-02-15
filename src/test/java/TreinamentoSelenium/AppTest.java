@@ -17,4 +17,13 @@ public class AppTest
         Assert.assertTrue(fruta.equals("Pera"));
     }
 
+    @Test
+    public void meuSegundoTeste(){
+        String empresa = "Base2";
+        String cidade = "Belo Horizonte";
+
+        Assert.assertTrue(empresa.equals("Base2"));
+        Assert.assertTrue(cidade.equals("Belo Horizonte"));
+    }
+
 }
